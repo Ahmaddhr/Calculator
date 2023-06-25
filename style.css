@@ -21,6 +21,9 @@ body {
     background-color: darkslategray;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -111,9 +114,17 @@ footer {
 footer p {
     font-weight: 400;
 }
-
 @media (max-width:1000px) {
- 
+    .calculator {
+        width: 90%;
+    }
+        body {
+            background-color: darkslategray;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            padding-top:27%;
+        }
         .btns input  {
             font-size: 22px;
         }

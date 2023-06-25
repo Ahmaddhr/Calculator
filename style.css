@@ -21,9 +21,6 @@ body {
     background-color: darkslategray;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -115,16 +112,8 @@ footer p {
     font-weight: 400;
 }
 
-@media (max-width:700px) {
+@media (max-width:1000px) {
  
-        body {
-            background-color: darkslategray;
-            width: fit-content;
-            height: fit-content;
-            margin: auto;
-            padding-top:30%;
-        }
-
         .btns input  {
             font-size: 22px;
         }
